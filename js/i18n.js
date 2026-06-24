@@ -390,6 +390,18 @@ function applyTranslations() {
     if (heroSceneImg) {
         heroSceneImg.src = 'assets/hero-scenes/scene-' + (currentLang === 'zh-TW' ? 'zh' : 'en') + '.png';
     }
+
+    // Update about page visual image based on language
+    var aboutVisualImg = document.getElementById('aboutVisualImg');
+    if (aboutVisualImg) {
+        if (currentLang === 'zh-TW') {
+            aboutVisualImg.src = 'assets/hero-scenes/company-intro-zh.png';
+            aboutVisualImg.alt = '逸源（香港）公司介紹';
+        } else {
+            aboutVisualImg.src = 'assets/hero-scenes/company-intro.png';
+            aboutVisualImg.alt = 'Company Introduction - YAT YUEN HK';
+        }
+    }
 }
 
 function initLang() {

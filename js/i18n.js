@@ -398,7 +398,7 @@ function applyTranslations() {
             aboutVisualImg.src = 'assets/hero-scenes/company-intro-zh.png';
             aboutVisualImg.alt = '逸源（香港）公司介紹';
         } else {
-            aboutVisualImg.src = 'assets/hero-scenes/company-intro.png';
+            aboutVisualImg.src = 'assets/hero-scenes/company-intro-en.png';
             aboutVisualImg.alt = 'Company Introduction - YAT YUEN HK';
         }
     }
